@@ -1,0 +1,20 @@
+{
+  "name": "com.uurha.betterdatastructures",
+  "displayName": "Better Data Structures",
+  "description": "Collection of useful data structures for Unity",
+  "version": "0.0.1",
+  "unity": "2018.3",
+  "author": {
+    "name": "Arcueid D'athemon",
+    "url": "https://github.com/uurha"
+  },
+  "changelogUrl": "https://github.com/uurha/BetterDataStructures",
+  "documentationUrl": "https://github.com/uurha/BetterDataStructures/tree/main#readme",
+  "license": "MIT",
+  "licensesUrl":"https://github.com/uurha/BetterDataStructures/blob/main/LICENSE",
+  "keywords": [
+    "collections",
+    "data structures",
+    "data"
+  ]
+}
