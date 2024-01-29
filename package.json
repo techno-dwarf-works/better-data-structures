@@ -2,7 +2,7 @@
   "name": "com.uurha.betterdatastructures",
   "displayName": "Better Data Structures",
   "description": "Collection of useful data structures for Unity",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "unity": "2018.3",
   "author": {
     "name": "Better Plugins",
