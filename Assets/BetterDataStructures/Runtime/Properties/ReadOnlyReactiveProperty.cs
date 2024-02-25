@@ -16,7 +16,6 @@ namespace Better.DataStructures.Properties
 
         public void Subscribe(Action<T> action) => _source.Subscribe(action);
         public void SubscribeWithInvoke(Action<T> action) => _source.SubscribeWithInvoke(action);
-
         public void Unsubscribe(Action<T> action) => _source.Unsubscribe(action);
     }
 }
