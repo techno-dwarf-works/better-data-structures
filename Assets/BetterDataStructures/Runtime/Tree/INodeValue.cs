@@ -1,4 +1,4 @@
-﻿namespace Better.DataStructures.Tree
+﻿namespace Better.DataStructures.Runtime.Tree
 {
     /// <summary>
     /// Defines a contract for values stored in tree nodes that need to be aware of their corresponding tree node.

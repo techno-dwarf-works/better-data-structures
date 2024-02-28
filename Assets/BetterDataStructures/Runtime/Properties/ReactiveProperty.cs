@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Better.DataStructures.Properties
+namespace Better.DataStructures.Runtime.Properties
 {
     /// <summary>
     /// A reactive property that notifies subscribers about changes to its value.

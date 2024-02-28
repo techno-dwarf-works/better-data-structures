@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace Better.DataStructures.SerializedTypes
+namespace Better.DataStructures.Runtime.SerializedTypes
 {
     /// <summary>
     /// Enables the serialization of a System.Type reference within Unity, storing the type's assembly qualified name.
