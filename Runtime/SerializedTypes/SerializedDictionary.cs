@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Better.DataStructures.SerializedTypes
+namespace Better.DataStructures.Runtime.SerializedTypes
 {
     /// <summary>
     /// A serializable dictionary that can be used with Unity's serialization system.

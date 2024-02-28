@@ -1,6 +1,6 @@
 {
     "name": "BetterDataStructures.Runtime",
-    "rootNamespace": "Better.DataStructures",
+    "rootNamespace": "Better.DataStructures.Runtime",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

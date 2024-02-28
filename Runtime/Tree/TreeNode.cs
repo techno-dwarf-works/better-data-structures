@@ -4,7 +4,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using UnityEngine;
 
-namespace Better.DataStructures.Tree
+namespace Better.DataStructures.Runtime.Tree
 {
     /// <summary>
     /// Represents a node in a tree structure with a value and a list of child nodes.

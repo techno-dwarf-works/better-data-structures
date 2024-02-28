@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Better.DataStructures.Properties
+namespace Better.DataStructures.Runtime.Properties
 {
     /// <summary>
     /// Represents a read-only wrapper around a ReactiveProperty, allowing subscription to value changes without the ability to modify the value.

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace Better.DataStructures.Ranges
+namespace Better.DataStructures.Runtime.Ranges
 {
     /// <summary>
     /// Represents a range with minimum and maximum values of a generic type.
