@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using UnityEngine;
 
 namespace Better.DataStructures.Tree
 {
@@ -13,7 +14,7 @@ namespace Better.DataStructures.Tree
     {
         // Holds the value of the node
         private protected readonly T _value;
-        
+
         // List to hold child nodes
         private readonly List<TreeNode<T>> _children = new List<TreeNode<T>>();
 
@@ -83,6 +84,12 @@ namespace Better.DataStructures.Tree
         /// <returns>true if the node was successfully removed; otherwise, false.</returns>
         public bool RemoveChild(TreeNode<T> node)
         {
+            if (node == null)
+            {
+                Debug.LogException(new ArgumentException(nameof(node)));
+                return default;
+            }
+
             return _children.Remove(node);
         }
 

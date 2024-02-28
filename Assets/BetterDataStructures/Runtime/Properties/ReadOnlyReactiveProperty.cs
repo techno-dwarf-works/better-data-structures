@@ -22,6 +22,11 @@ namespace Better.DataStructures.Properties
         /// <param name="source">The ReactiveProperty to encapsulate in a read-only manner.</param>
         public ReadOnlyReactiveProperty(ReactiveProperty<T> source)
         {
+            if (source == null)
+            {
+                throw new ArgumentException(nameof(source));
+            }
+
             _source = source;
         }
 
